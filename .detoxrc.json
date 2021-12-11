@@ -1,0 +1,18 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "e2e/config.json",
+  "configurations": {
+    "ios.sim.release": {
+      "device": "simulator",
+      "app": "ios.release"
+    },
+    "ios.sim.debug": {
+      "type": "ios.simulator",
+      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/myskills.app",
+      "build": "xcodebuild -workspace ios/myskills.xcworkspace -scheme myskills -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+      "device": {
+        "type": "iPhone 13"
+      }
+    }
+  }
+}
