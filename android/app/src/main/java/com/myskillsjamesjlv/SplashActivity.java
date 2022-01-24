@@ -1,4 +1,4 @@
-package com.myskills;
+package com.myskillsjamesjlv;
 
 import android.content.Intent;
 import android.os.Bundle;

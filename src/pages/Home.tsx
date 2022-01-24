@@ -54,7 +54,7 @@ export function Home() {
   return (
     <View style={styles.container}>
       <Text style={styles.title} testID="welcome">
-        Welcome, James{' '}
+        Welcome!{' '}
       </Text>
       <Text style={styles.greetting}>{greetting}</Text>
 
